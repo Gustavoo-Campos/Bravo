@@ -1,0 +1,342 @@
+@import url('global.css');
+
+
+
+.cadastro {
+    background-image: url('img/img-shop.svg');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+.title {
+    position: absolute;
+    top: 45%;
+}
+
+.cadastro__button {
+    background-color: transparent;
+    color: var(--sec-color);
+    transform: translate(0px, 1210%);
+}
+
+
+
+
+
+/* - - - - - - - - Home - - - - - - - - - -*/
+
+
+
+.theme {
+    cursor: pointer;
+}
+
+
+
+aside {
+    width: 92vw;
+    max-width: 600px;
+    height: 129px;
+    border-radius: 8px;
+
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    overflow: scroll;
+
+}
+
+
+
+.exclu__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+
+.carrousel__bools {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.bool {
+    width: 5px;
+    height: 5px;
+    border-radius: 500px;
+    border: 1px solid white;
+
+}
+
+.bool-on {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - - - Cardápio - - - - - - - - - -*/
+
+
+.catalogo {
+    padding: 0px 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    
+}
+
+.produto {
+    width: 164px;
+    height: 213px;
+    
+    
+}
+
+.produto__exibiçao {
+    width: 100%;
+    height: 164px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.produto__img {
+    width: 100%;
+    
+}
+
+.descriçao {
+    padding-top: 6px;
+    width: 100%;
+    height: 30%;
+}
+
+
+/* - - - - - - - - Produto - - - - - - - - - -*/
+
+
+
+
+.info__produto{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    transform: translate(0px, 0%);
+
+}
+
+
+.produto__carrossel{
+    width: 343px;
+    height: 343px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.produto__carrossel__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description{
+    width: 343px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+   
+    padding: 12px 0px;
+}
+
+
+.name, .valor{
+    font-size: 24px;
+}
+
+.more__info{
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-133%, 220%);
+}
+
+.pay{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 16px;
+    margin-top: 16px;
+    margin-top: 20px;
+}
+
+.carrinho{
+    width: 164px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--sec-color);
+    padding: 15px 45px;
+    
+}
+
+.buy{
+    width: 164px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--sec-color);
+    padding: 14px 42px;
+}
+
+.p__compra{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.p__compra-white{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sec-color);
+   
+}
+
+
+/* - - - - - - - - @Medias - - - - - - - - - -*/
+
+
+
+
+@media screen and (min-width: 812px) {
+    
+    
+    
+    .cadastro {
+        background-image: url('img/img-shop.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+    }
+
+
+    .single-body {
+        overflow: hidden;
+    }
+
+    .equipe__dark {
+        width: 100vw;
+        position: absolute;
+        transform: translate(0px, -35%);
+        opacity: 0.2;
+    }
+
+
+    section {
+        position: absolute;
+        margin-top: 15vh;
+        top: 4%;
+    }
+
+
+    .info__top {
+        margin: 24px 0px;
+    }
+
+
+
+    .info__top__estaque {
+        font-size: 1.8rem;
+    }
+
+
+    .setas__divisoras {
+        width: 124px;
+    }
+
+    aside {
+        width: 67vw;
+        max-width: 904px;
+        height: 40vh;
+        border-radius: 22px;
+
+    }
+
+
+    .nav {
+        bottom: 64px;
+    }
+
+
+
+    .catalogo {
+
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+        padding-top: 32px;
+
+    }
+
+
+    .produto {
+        width: 222px;
+        height: 285px;
+    }
+
+
+
+    .produto__exibiçao {
+        width: 100%;
+        height: 222px;
+        border-radius: 10px;
+        overflow: hidden;
+       
+    }
+
+.preço{
+    margin-top: 12px;
+}
+
+
+.main__produto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+
+}
