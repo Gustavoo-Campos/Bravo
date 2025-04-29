@@ -26,7 +26,18 @@
 
 /* - - - - - - - - Home - - - - - - - - - -*/
 
-
+.logo{
+    width: 148px;
+    height: 30px;
+    border:none;
+    border-radius:0px;
+    padding: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    position: relative;
+    transform: translate(0px, 0%);
+    
+}
 
 .theme {
     cursor: pointer;

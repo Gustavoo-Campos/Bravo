@@ -3,12 +3,27 @@
 
 
 
-:root {
+:root, :root[data-theme="dark"] {
     --pri-color: #1C1B19;
     --sec-color: #D9AE61;
     --ter-color: #000;
     --quar-color: #fff;
 
+}
+
+
+:root[data-theme="light"] {
+    --pri-color: #F1F0EE;
+    --sec-color: #573D1C;
+    --ter-color: #fff;
+    --quar-color: #000;
+
+}
+
+
+
+html[data-theme="light"]  {
+    background-color: var(--pri-color);
 }
 
 
@@ -51,7 +66,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
-    color: white;
+    color: var(--quar-color);
 }
 
 h2{
@@ -59,7 +74,7 @@ h2{
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
-    color: white;
+    color: var(--quar-color);
     text-align: center;
     margin-top: 4px;
 }
@@ -80,7 +95,7 @@ a {
 }
 
 p {
-    color: white;
+    color: var(--quar-color);
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 200;
