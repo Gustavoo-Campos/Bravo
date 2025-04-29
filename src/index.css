@@ -212,8 +212,7 @@ section {
     display: flex;
     flex-flow: row nowrap;
     gap: 16px;
-    margin-top: 16px;
-    margin-top: 20px;
+    margin-top: 24px;
     text-transform: uppercase;
 }
 
