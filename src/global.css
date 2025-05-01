@@ -11,7 +11,6 @@
 
 }
 
-
 :root[data-theme="light"] {
     --pri-color: #F1F0EE;
     --sec-color: #573D1C;
@@ -20,24 +19,15 @@
 
 }
 
-
-
 html[data-theme="light"]  {
     background-color: var(--pri-color);
 }
-
-
-
-
-
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     width: 100vw;
@@ -48,8 +38,6 @@ body {
     align-items: center;
 }
 
-
-
 main {
     display: flex;
     flex-flow: column nowrap;
@@ -57,9 +45,6 @@ main {
     gap: 0px;
 
 }
-
-
-
 
 h1 {
     font-family: "Great Vibes", cursive;
@@ -111,6 +96,9 @@ header {
     z-index: 1;
 }
 
+html[data-theme="light"] .icon-invert {
+    filter: invert(1);
+}
 
 .info__top {
     display: flex;
@@ -120,17 +108,6 @@ header {
     margin: 12px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .nav {
    
     width: 223px;
@@ -138,10 +115,8 @@ header {
     border-radius: 500px;
     padding: 0px 50px;
     position: fixed;
-   
     bottom: 16px;
     background-color: var(--sec-color);
-
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -150,14 +125,12 @@ header {
     z-index: 2;
 }
 
-
 .nav__button{
     width: 24px;
     height: 24px;
     border:none;
     border-radius: 0px;
     padding: 0px 0px;
-
     background-color: transparent;
     cursor: pointer;
     transform: translate(0px, 0%);
@@ -165,16 +138,6 @@ header {
     box-sizing: content-box;
    
 }
-
-
-
-
-
-
-
-
-
-
 
 
 ::-webkit-scrollbar {

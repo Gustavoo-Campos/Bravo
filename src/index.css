@@ -22,45 +22,46 @@
 
 
 
-
-
 /* - - - - - - - - Home - - - - - - - - - -*/
 
-.logo{
+.logo {
     width: 148px;
     height: 30px;
-    border:none;
-    border-radius:0px;
+    border: none;
+    border-radius: 0px;
     padding: 0px;
     font-size: 0px;
     cursor: pointer;
     position: relative;
     transform: translate(0px, 0%);
-    
+
 }
 
 .theme {
     cursor: pointer;
 }
 
+.info__home {
+    z-index: 1;
+    position: absolute;
+    transform: translate(0px, 170%);
+}
 
+html[data-theme="light"] .setas__divisoras {
+    filter: invert(1);
+}
 
 aside {
     width: 92vw;
     max-width: 600px;
     height: 129px;
     border-radius: 8px;
-
-
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-
     overflow: scroll;
 
 }
-
-
 
 .exclu__img {
     width: 100%;
@@ -68,15 +69,12 @@ aside {
     object-fit: cover;
 }
 
-
-
 section {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 
 }
-
 
 .carrousel__bools {
     display: flex;
@@ -102,22 +100,12 @@ section {
 
 
 
-
-
-
-
-
-
-
-
 /* - - - - - - - - Cardápio - - - - - - - - - -*/
 
 
 .info__top__cardapio {
     transform: translate(0px, -13px);
 }
-
-
 
 .catalogo {
     padding: 0px 16px;
@@ -130,8 +118,6 @@ section {
 .produto {
     width: 164px;
     height: 213px;
-
-
 }
 
 .produto__exibiçao {
@@ -144,7 +130,6 @@ section {
 
 .produto__img {
     width: 100%;
-
 }
 
 .descriçao {
@@ -152,8 +137,6 @@ section {
     width: 100%;
     height: 30%;
 }
-
-
 
 .preço {
     margin-top: 3px;
@@ -163,7 +146,6 @@ section {
 
 
 /* - - - - - - - - Produto - - - - - - - - - -*/
-
 
 
 
@@ -179,7 +161,6 @@ section {
     transform: translate(0px, 0%);
 
 }
-
 
 .produto__carrossel {
     width: 343px;
@@ -205,7 +186,6 @@ section {
     justify-content: space-between;
     padding: 12px 0px;
 }
-
 
 .name,
 .valor {
@@ -257,7 +237,6 @@ section {
 
 }
 
-
 .tres__info {
     width: 190px;
     height: 50px;
@@ -277,7 +256,6 @@ section {
 
 
 
-
 @media screen and (min-width: 812px) {
 
     .cadastro {
@@ -292,15 +270,15 @@ section {
         overflow: hidden;
     }
 
+    /* - - - - - - - - Home - - - - - - - - - -*/
+
+
     .equipe__dark {
         width: 100vw;
         position: absolute;
-        transform: translate(0px, -35%);
+        transform: translate(-50%, -35%);
         opacity: 0.2;
     }
-
-    
-/* - - - - - - - - Home - - - - - - - - - -*/
 
     section {
         position: absolute;
@@ -308,17 +286,13 @@ section {
         top: 4%;
     }
 
-
     .info__top {
         margin: 24px 0px;
     }
 
-
-
     .info__top__estaque {
         font-size: 1.8rem;
     }
-
 
     .setas__divisoras {
         width: 124px;
@@ -331,11 +305,9 @@ section {
         border-radius: 22px;
     }
 
-
     .nav {
         bottom: 64px;
     }
-
 
     .catalogo {
 
@@ -345,8 +317,8 @@ section {
 
     }
 
-    
-/* - - - - - - - - Produto - - - - - - - - - -*/
+
+    /* - - - - - - - - Produto - - - - - - - - - -*/
 
     .main__produto {
         width: 100vw;
@@ -359,13 +331,10 @@ section {
 
     }
 
-
     .produto {
         width: 222px;
         height: 285px;
     }
-
-
 
     .produto__exibiçao {
         width: 100%;
@@ -395,13 +364,11 @@ section {
         margin-top: 12px;
     }
 
-
     .description {
         width: 420px;
-        transform: translate( 10%, -325%);
-       
-    }
+        transform: translate(10%, -325%);
 
+    }
 
     .more__info {
         transform: translate(-125%, -350%);
@@ -441,10 +408,8 @@ section {
 
     }
 
+    .tres__info__button {
 
-    .tres__info__button{
-
-       scale: 1.4;
+        scale: 1.4;
     }
-
 }
