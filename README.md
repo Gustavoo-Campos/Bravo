@@ -2,7 +2,7 @@
 # Projeto Bravo
 
 <div align="center">
-<img src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/streaming.png">
+<img src="https://github.com/Gustavoo-Campos/Bravo/blob/main/src/img/post-github.png">
 </div>
 
 
