@@ -115,7 +115,7 @@ html[data-theme="light"] .icon-invert {
     border-radius: 500px;
     padding: 0px 50px;
     position: fixed;
-    bottom: 16px;
+    bottom: 5%;
     background-color: var(--sec-color);
     display: flex;
     flex-flow: row nowrap;
