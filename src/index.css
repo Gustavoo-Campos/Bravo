@@ -15,9 +15,18 @@
 }
 
 .cadastro__button {
-    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
     color: var(--sec-color);
     transform: translate(0px, 1210%);
+    width: 223px;
+    height: 50px;
+    border-radius: 500px;
+    border: 2px solid var(--sec-color);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }
 
 
@@ -41,7 +50,7 @@
     cursor: pointer;
 }
 
-.equipe{
+.equipe {
     width: 100vw;
     object-fit: cover;
     object-position: center;
@@ -50,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -64,7 +73,7 @@ html[data-theme="light"] .setas__divisoras {
     filter: invert(1);
 }
 
-aside {
+.carrousel__produtos {
     width: 92vw;
     max-width: 600px;
     height: 129px;
@@ -73,6 +82,7 @@ aside {
     flex-flow: row nowrap;
     align-items: center;
     overflow: scroll;
+    border: 1px solid #fff;
 
 }
 
@@ -290,48 +300,48 @@ section {
         width: 100vw;
         position: absolute;
         transform: translate(0%, 15%);
-        
+
         opacity: 0.2;
     }
-    
+
     section {
         position: absolute;
         margin-top: 15vh;
         top: 4%;
     }
-    
+
     .info__top {
         margin: 24px 0px;
     }
-    
+
     .info__top__estaque {
         font-size: 1.8rem;
     }
-    
+
     .setas__divisoras {
         width: 124px;
     }
-    
+
     aside {
         width: 67vw;
         max-width: 904px;
         height: 40vh;
         border-radius: 22px;
     }
-    
+
     .nav {
         bottom: 64px;
     }
-    
+
     .catalogo {
-        
+
         grid-template-columns: repeat(4, 1fr);
         gap: 32px;
         padding-top: 32px;
 
     }
-    
-    
+
+
     /* - - - - - - - - Produto - - - - - - - - - -*/
 
     .main__produto {
