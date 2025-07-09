@@ -322,7 +322,7 @@ section {
         width: 124px;
     }
 
-    aside {
+    .carrousel__produtos {
         width: 67vw;
         max-width: 904px;
         height: 40vh;
