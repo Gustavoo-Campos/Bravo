@@ -102,9 +102,8 @@ html[data-theme="light"] .icon-invert {
     width: 223px;
     height: 50px;
     border-radius: 500px;
-    padding: 0px 50px 8px 50px;
-    position: fixed;
-    bottom: 25px;
+    bottom: 0px;
+    position:relative;
     background-color: var(--sec-color);
     display: flex;
     flex-flow: row nowrap;
@@ -114,17 +113,26 @@ html[data-theme="light"] .icon-invert {
     z-index: 2;
 }
 
+.nav-cardapio{
+    position: fixed;
+    bottom: 3vh;
+}
+
 .nav__button{
     width: 24px;
     height: 24px;
     border:none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
     border-radius: 0px;
-    padding: 0px 0px;
     background-color: transparent;
     cursor: pointer;
     transform: translate(0px, 0%);
-    padding: 10px;
+    padding: 13px;
     box-sizing: content-box;
+    
    
 }
 

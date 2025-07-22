@@ -92,6 +92,12 @@ html[data-theme="light"] .setas__divisoras {
     object-fit: cover;
 }
 
+
+
+
+
+
+
 section {
     display: flex;
     flex-flow: column nowrap;
@@ -104,7 +110,7 @@ section {
     flex-flow: row nowrap;
     justify-content: center;
     gap: 5px;
-    margin-top: 8px;
+    margin: 8px 0px 19px 0px;
 }
 
 .bool {
@@ -185,7 +191,7 @@ section {
 
 }
 
-.produto__carrossel {
+.produto__compra {
     width: 343px;
     height: 320px;
     border-radius: 10px;
@@ -196,7 +202,7 @@ section {
 
 }
 
-.produto__carrossel__img {
+.produto__compra__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -279,7 +285,7 @@ section {
 
 
 
-@media screen and (min-width: 812px) {
+@media screen and (min-width: 800px) {
 
     .cadastro {
         background-image: url('img/img-shop.svg');
@@ -327,10 +333,17 @@ section {
         max-width: 904px;
         height: 40vh;
         border-radius: 22px;
+
     }
 
+
+
+
+
+
     .nav {
-        bottom: 64px;
+        position: fixed;
+        bottom: 80px;
     }
 
     .catalogo {
@@ -368,7 +381,7 @@ section {
 
     }
 
-    .produto__carrossel {
+    .produto__compra {
         width: 400px;
         height: 400px;
         border-radius: 12px;
