@@ -73,10 +73,6 @@ hr{
     opacity: 32%;
 }
 
-a{
-    text-decoration: none;
-}
-
 p {
     color: var(--quar-color);
     font-family: "Montserrat", sans-serif;

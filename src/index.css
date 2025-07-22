@@ -43,6 +43,7 @@
     cursor: pointer;
     position: relative;
     transform: translate(0px, 0%);
+    text-decoration: none;
 
 }
 
@@ -59,6 +60,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 0px;
 
 }
 
@@ -129,7 +131,6 @@ section {
 
 footer{
     position: relative;
-    bottom: -8px;
 }
 
 
@@ -295,6 +296,7 @@ footer{
     align-items: start;
     margin-top: 16px;
   
+    color: var(--ter-color);
   
     
 }
@@ -303,7 +305,6 @@ footer{
     font-size: 16px;
     line-height: 1.5;
     margin-top: 32px;
-    color: #ffffff;
     margin-top: 24px;
     opacity: 50%;
 }
@@ -346,9 +347,8 @@ footer{
     }
 
     section {
-        position: absolute;
-        margin-top: 15vh;
-        top: 4%;
+        position: relative;
+        margin-top: 6vh;
     }
 
     .info__top {
@@ -493,9 +493,5 @@ footer{
     }
     
 
-footer{
-    position: relative;
-    bottom: -550px;
-}
 
 }
