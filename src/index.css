@@ -43,7 +43,7 @@
     cursor: pointer;
     position: relative;
     transform: translate(0px, 0%);
-    text-decoration: none;
+   
 
 }
 
@@ -133,6 +133,10 @@ footer{
     position: relative;
 }
 
+.foot__link{
+    color: #fff;
+    text-decoration: underline;
+}
 
 /* - - - - - - - - Cardápio - - - - - - - - - -*/
 
