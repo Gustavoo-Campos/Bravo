@@ -51,7 +51,7 @@
 }
 
 .equipe {
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -63,7 +63,7 @@
 }
 
 
-.info__home {
+info__home {
     z-index: 1;
     position: absolute;
     transform: translate(0px, 170%);
@@ -129,7 +129,7 @@ section {
 
 footer{
     position: relative;
-    
+    bottom: -8px;
 }
 
 
@@ -479,13 +479,23 @@ footer{
     }
 
     .tres__info__button {
-
         scale: 1.4;
+    }
+
+    .hr__produto{
+        transform: translate(0%, 10200%);
+      
     }
     
     .caracteristicas{
-        transform: translate(0%, 70%);
+        transform: translate(0%, 80%);
 
     }
     
+
+footer{
+    position: relative;
+    bottom: -550px;
+}
+
 }
