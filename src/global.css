@@ -28,10 +28,11 @@ html[data-theme="light"]  {
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
+
+    
     width: 100vw;
-    height: 100vh;
+    
     background-color: var(--pri-color);
     display: flex;
     flex-flow: column nowrap;
@@ -39,11 +40,13 @@ body {
 }
 
 main {
+   
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 0px;
-
+  
+    
 }
 
 a{
@@ -68,8 +71,18 @@ h2{
     margin-top: 4px;
 }
 
-hr{
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    
+}
 
+
+hr{
+    
     width: 90%;
     border-color: #fff;
     margin: auto;
