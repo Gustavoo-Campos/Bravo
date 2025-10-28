@@ -3,6 +3,10 @@
 
 
 .cadastro {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    object-position: center center;
     background-image: url('img/img-shop.svg');
     background-position: 50% 30%;
     background-repeat: no-repeat;
@@ -27,6 +31,7 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
+    font-weight: 600;
 }
 
 
