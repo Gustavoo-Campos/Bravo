@@ -62,7 +62,7 @@
 
 div.nota{
     position: absolute;
-    transform: translate(-45px, 750%);
+    transform: translate(-24%, 750%);
     display: flex;
     flex-flow: column nowrap;
     align-items: start;
