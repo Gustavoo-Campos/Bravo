@@ -27,12 +27,12 @@ html[data-theme="light"]  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 body {
 
-    
     width: 100vw;
-    
+   
     background-color: var(--pri-color);
     display: flex;
     flex-flow: column nowrap;
@@ -57,7 +57,7 @@ h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 24px;
     color: var(--quar-color);
 }
 
